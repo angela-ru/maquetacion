@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #050203;
+}
+
+body {
+    width: 960px;               
+    margin: 0 auto;              
+    padding-top: 110px;          
+    background: #0b0507;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+ul { list-style: none; }
+a  { color: inherit; text-decoration: none; }
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 960px;
+    height: 110px;
+    margin-left: -480px;
+    padding-top: 14px;
+    z-index: 10;
+}
+
+#icono {
+    width: 46px;
+    height: 46px;
+    margin: 0 auto 8px;
+    border-radius: 50%;
+    background: #c8103e;
+    text-align: center;
+    line-height: 46px;
+}
+
+nav {
+    display: table;              
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 26px;
+    background: #1c0b10;
+}
+
+nav li {
+    float: left;
+    margin: 0 2px;
+}
+
+nav a {
+    display: block;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background: #c8103e;
+}
+
+#inicio {
+    position: relative;
+    height: 500px;
+    background-color: #1c0b10;
+}
+
+#portada {
+    position: absolute;         
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 200px;
+    margin: -100px 0 0 -300px;
+    border: 1px dashed #c8103e;
+}
+#acercade {
+    height: 400px;
+    overflow: hidden;            
+}
+
+#foto {
+    float: left;
+    width: 285px;                
+    height: 380px;
+    margin: 10px 0 0 40px;
+    border: 1px dashed #c8103e;
+}
+
+#texto {
+    float: right;
+    width: 540px;
+    margin: 30px 40px 0 0;
+}
+
+#uno,
+#dos {
+    height: 160px;
+    border: 1px dashed #c8103e;
+}
+
+#uno {
+    margin-bottom: 16px;
+}
+
+
+#informacion {
+    height: 400px;
+    padding-top: 20px;
+    overflow: hidden;            
+}
+
+#formacion,
+#experiencia,
+#herramientas {
+    float: left;
+    width: 290px;                
+    margin-left: 30px;
+    padding: 20px;
+    border: 1px dashed #c8103e;
+}
+
+
+#contacto {
+    height: 400px;
+    padding-top: 30px;
+    background-color: #1c0b10;
+}
+
+#formulario {
+    width: 520px;
+    height: 340px;
+    margin: 0 auto;
+    border: 1px dashed #c8103e;
+}
+
+footer {
+    height: 80px;
+}
+
+#redes {
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    border: 1px dashed #c8103e;
+}
